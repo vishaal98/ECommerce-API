@@ -1,0 +1,1 @@
+An ECommerce API to manage the store inventory
