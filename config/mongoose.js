@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
-
-mongoose.connect("mongodb://127.0.0.1:27017/ecommerceAPI");
+require("dotenv").config();
+//connect to the mongo database
+mongoose.connect(process.env.MONGODB);
 
 const db = mongoose.connection;
 
