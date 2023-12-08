@@ -1,17 +1,28 @@
 An ECommerce API to manage the store inventory
 
-set up on local system\n\n
+set up on local system
 
-step1: clone this repository\n
-step2: cd into the directory\n
-step3: run the command "npm install"\n
-step4: create a .env file and add the port number and mongoDB URL. use the below variable names\n
-       MONGODB and PORT\n
-step5: save and run the command "npm start"\n
+step1: clone this repository
 
-Usage of the API:\n
-endpoints are as below\n
-/products\n
-/products/create\n
-/products/:id\n
-/products/:id/update_quantity/?number=10\n
+step2: cd into the directory
+
+step3: run the command "npm install"
+
+step4: create a .env file and add the port number and mongoDB URL. use the below variable names
+
+       MONGODB and PORT
+
+step5: save and run the command "npm start"
+
+
+Usage of the API:
+
+endpoints are as below
+
+/products
+
+/products/create
+
+/products/:id
+
+/products/:id/update_quantity/?number=10
